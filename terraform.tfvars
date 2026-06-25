@@ -1,0 +1,5 @@
+project_id   = "my-team-486611"
+region       = "us-central1"
+zone         = "us-central1-a"
+machine_type = "e2-micro"
+image        = "debian-cloud/debian-11"
