@@ -22,7 +22,7 @@ resource "google_compute_firewall" "ssh_rule" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "private-vm"
+  name         = "practice-vm"
   machine_type = var.machine_type
   zone         = var.zone
 
